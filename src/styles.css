@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+.example-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.example-container > mat-card {
+  width: 40%;
+  text-align: -webkit-center !important;
+}
+
+.mat-form-field {
+  display: block !important;
+}
+
+.mat-raised-button {
+  min-width: 150px !important;
+}
+
+html {
+  background: url(./images/trls.jpg) !important;
+  padding-bottom: 200px;
+}
+
+h2 {
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-top: 250px;
+}
