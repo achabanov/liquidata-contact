@@ -15,6 +15,10 @@ import {
   MatCardModule,
   MatGridListModule
 } from "@angular/material";
+import { MatSnackBarModule } from "@angular/material/snack-bar";
+
+import { RecaptchaModule } from "ng-recaptcha";
+import { RecaptchaFormsModule } from "ng-recaptcha/forms";
 
 // import { HttpService } from "./http.service";
 
@@ -32,7 +36,10 @@ import {
     MatInputModule,
     MatRippleModule,
     MatCardModule,
-    MatGridListModule
+    MatGridListModule,
+    RecaptchaModule.forRoot(),
+    RecaptchaFormsModule,
+    MatSnackBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
